@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
+body {
+  margin: 0;
+  font-family: 'Cairo', sans-serif;
+  direction: rtl;
+}
+
+.navbar {
+  margin-bottom: 1rem;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: coral;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: right;
+  margin-bottom: 0;
+}
+
+.navbar li a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  text-align: center;
+  color: aliceblue;
+}
+
+.navbar li a:hover {
+  background: gold;
+}
+
+button {
+  margin-left: .5rem;
+}
